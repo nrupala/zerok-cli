@@ -1,6 +1,7 @@
 package cmd
 
 import (
+	"fmt"
 	"os"
 
 	"github.com/zerok-vault/zerok-cli/pkg/crypto"
@@ -38,21 +39,13 @@ var initCmd = &cobra.Command{
 			return err
 		}
 
-		// Save vault metadata
-		vaultData := struct {
-			Salt     string `json:"salt"`
-			Verifier string `json:"verifier"`
-		}{
-			Salt:     crypto.HashString(string(salt)),
-			Verifier: crypto.HashString(string(verifier)),
-		}
-
 		// Write salt (for future key derivation)
 		os.WriteFile(path+"/salt.bin", salt, 0600)
 		os.WriteFile(path+"/verifier.bin", verifier, 0600)
 
 		// Write metadata JSON
-		os.WriteFile(path+"/vault.json", []byte(`{"created":true}`), 0644)
+		vaultJSON := fmt.Sprintf(`{"created":%d,"version":"1.0","encryption":"AES-256-GCM"}`, os.Stderr.Fd())
+		os.WriteFile(path+"/vault.json", []byte(vaultJSON), 0644)
 
 		// Initialize file store
 		store, err := storage.NewFileStore(path+"/data", key)
@@ -60,18 +53,19 @@ var initCmd = &cobra.Command{
 			return err
 		}
 
-		// Test encryption
-		testData := []byte("Zerok Vault CLI initialized")
-		encrypted, err := store.EncryptAndSave(path + "/test.txt")
+		// Test encryption with a small sample
+		testData := []byte("Zerok Vault CLI initialized - encryption test")
+		encrypted, err := store.EncryptAndSave(path + "/.init_test")
 		if err != nil {
-			return err
+			return fmt.Errorf("encryption test failed: %w", err)
 		}
 		_ = encrypted
 
 		// Clean up test
-		os.Remove(path + "/test.txt")
+		os.Remove(path + "/.init_test")
 
 		fmt.Printf("Vault initialized at: %s\n", path)
+		fmt.Println("Encryption: AES-256-GCM with PBKDF2 (600K iterations)")
 		fmt.Println("Vault is ready for use!")
 		return nil
 	},

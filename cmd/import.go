@@ -1,10 +1,11 @@
 package cmd
 
 import (
+	"crypto/sha256"
+	"encoding/hex"
 	"fmt"
 	"os"
 	"path/filepath"
-	"strings"
 
 	"github.com/zerok-vault/zerok-cli/pkg/crypto"
 	"github.com/zerok-vault/zerok-cli/pkg/storage"
@@ -56,48 +57,44 @@ var importCmd = &cobra.Command{
 		var filesToImport []string
 
 		if info.IsDir() {
-			// Get all files from directory
-			entries, err := os.ReadDir(sourcePath)
-			if err != nil {
-				return err
-			}
-			for _, e := range entries {
-				if !e.IsDir() {
-					filesToImport = append(filesToImport, filepath.Join(sourcePath, e.Name()))
+			// Get all files from directory recursively
+			filepath.Walk(sourcePath, func(p string, fi os.FileInfo, err error) error {
+				if err != nil { return err }
+				if !fi.IsDir() && !strings.HasPrefix(fi.Name(), ".") {
+					filesToImport = append(filesToImport, p)
 				}
-			}
+				return nil
+			})
 		} else {
 			filesToImport = []string{sourcePath}
 		}
 
-		// Deduplication check
-		if deduplicate {
-			duplicates, err := storage.HashFiles(filesToImport)
-			if err != nil {
-				fmt.Printf("Warning: Deduplication check failed: %v\n", err)
-			} else if len(duplicates) > 0 {
-				fmt.Printf("Found %d duplicate groups:\n", len(duplicates))
-				for h, paths := range duplicates {
-					fmt.Printf("  Hash %s: %d files\n", h[:8], len(paths))
-					for _, p := range paths {
-						fmt.Printf("    - %s\n", p)
-					}
-				}
-				fmt.Println("Use first file from each group (import skipped for duplicates)")
-			}
-		}
+		// Track seen hashes for deduplication
+		seenHashes := make(map[string]string) // hash -> first file path
 
 		// Import files
 		successCount := 0
 		failedCount := 0
+		skippedCount := 0
 
 		for _, filePath := range filesToImport {
-			// Skip if we only want first of duplicates and this is a duplicate
+			// Check for duplicates
 			if deduplicate {
-				// Check if this file is a duplicate
-				data, _ := os.ReadFile(filePath)
-				h := fmt.Sprintf("%x", crypto.Hash(data)[:8])
-				_ = h
+				data, err := os.ReadFile(filePath)
+				if err != nil {
+					fmt.Printf("Warning: Could not read %s: %v\n", filePath, err)
+					continue
+				}
+				
+				hash := sha256.Sum256(data)
+				hashStr := hex.EncodeToString(hash[:])
+				
+				if existingPath, exists := seenHashes[hashStr]; exists {
+					fmt.Printf("Skipped (duplicate): %s (same as %s)\n", filepath.Base(filePath), filepath.Base(existingPath))
+					skippedCount++
+					continue
+				}
+				seenHashes[hashStr] = filePath
 			}
 
 			fileInfo, err := store.EncryptAndSave(filePath)
@@ -112,7 +109,7 @@ var importCmd = &cobra.Command{
 			fmt.Printf("Imported: %s (%.2f MB)\n", fileInfo.Name, sizeMB)
 		}
 
-		fmt.Printf("\nImport complete: %d files imported, %d failed\n", successCount, failedCount)
+		fmt.Printf("\nImport complete: %d imported, %d failed, %d skipped\n", successCount, failedCount, skippedCount)
 		return nil
 	},
 }
@@ -122,10 +119,4 @@ func init() {
 	importCmd.Flags().StringVarP(&sourcePath, "source", "s", "", "Source file or directory to import")
 	importCmd.Flags().BoolVarP(&deduplicate, "dedup", "d", false, "Enable deduplication (SHA-256)")
 	_ = importCmd.MarkFlagRequired("source")
-}
-
-// Helper to get file extension
-func getExt(path string) string {
-	ext := filepath.Ext(path)
-	return strings.ToLower(ext)
 }
