@@ -9,6 +9,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"strings"
 
 	"github.com/zerok-vault/zerok-cli/pkg/crypto"
 	"github.com/zerok-vault/zerok-cli/pkg/storage"
