@@ -58,6 +58,9 @@ var initCmd = &cobra.Command{
 
 		// Test encryption with a small sample
 		testData := []byte("Zerok Vault CLI initialized - encryption test")
+		if err := os.WriteFile(path+"/.init_test", testData, 0600); err != nil {
+			return err
+		}
 		encrypted, err := store.EncryptAndSave(path + "/.init_test")
 		if err != nil {
 			return fmt.Errorf("encryption test failed: %w", err)
