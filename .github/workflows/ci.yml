@@ -1,0 +1,51 @@
+name: CI
+
+on:
+  push:
+    branches: ["master"]
+  pull_request:
+    branches: ["master"]
+
+permissions:
+  contents: read
+
+jobs:
+  test-and-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.21"
+
+      - name: Vet
+        run: go vet ./...
+
+      - name: Test
+        run: go test ./...
+
+      - name: Build CLI
+        run: go build -o zerok ./cmd/zerok-cli
+
+      - name: CLI round-trip — init a vault and import a file
+        run: |
+          mkdir -p /tmp/rt/src
+          printf 'round-trip content' > /tmp/rt/src/note.txt
+          ./zerok init --path /tmp/rt/vault --password ci-test-password | tee /tmp/rt/init.out
+          grep -q "Vault is ready" /tmp/rt/init.out
+          test -f /tmp/rt/vault/salt.bin
+          test -f /tmp/rt/vault/verifier.bin
+          ./zerok import --path /tmp/rt/vault --source /tmp/rt/src --password ci-test-password | tee /tmp/rt/import.out
+          grep -q "Imported: note.txt" /tmp/rt/import.out
+          ls /tmp/rt/vault/data/*.enc
+
+      - name: CLI smoke — hash finds duplicates
+        run: |
+          mkdir -p /tmp/dupes
+          printf 'same-content' > /tmp/dupes/a.txt
+          printf 'same-content' > /tmp/dupes/b.txt
+          printf 'different' > /tmp/dupes/c.txt
+          ./zerok hash --source /tmp/dupes | tee /tmp/hash.out
+          grep -q "Found 1 duplicate" /tmp/hash.out
