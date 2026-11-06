@@ -5,6 +5,7 @@ package cmd
 
 import (
 	"fmt"
+	"os"
 
 	"github.com/zerok-vault/zerok-cli/pkg/storage"
 	"github.com/spf13/cobra"
@@ -49,7 +50,7 @@ var verifyCmd = &cobra.Command{
 		corrupted := 0
 
 		for _, fileID := range files {
-			valid, err := store.VerifyIntegrity(fileID)
+			_, err := store.VerifyIntegrity(fileID)
 			if err != nil {
 				corrupted++
 				fmt.Printf("  [CORRUPTED] %s\n", fileID)
