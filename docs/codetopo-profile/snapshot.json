@@ -1,0 +1,5249 @@
+{
+  "schema_version": "2.0",
+  "profile_id": "code",
+  "profile_version": "1.0.0",
+  "graph_class": "truths",
+  "provenance_summary": {
+    "extracted_truth": 358
+  },
+  "nodes": [
+    {
+      "id": "external::AddCommand",
+      "kind": "external",
+      "label": "AddCommand",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Base",
+      "kind": "external",
+      "label": "Base",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::BoolP",
+      "kind": "external",
+      "label": "BoolP",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::BoolVarP",
+      "kind": "external",
+      "label": "BoolVarP",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Close",
+      "kind": "external",
+      "label": "Close",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Copy",
+      "kind": "external",
+      "label": "Copy",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Create",
+      "kind": "external",
+      "label": "Create",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::EncodeToString",
+      "kind": "external",
+      "label": "EncodeToString",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Equal",
+      "kind": "external",
+      "label": "Equal",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Errorf",
+      "kind": "external",
+      "label": "Errorf",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Exit",
+      "kind": "external",
+      "label": "Exit",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Ext",
+      "kind": "external",
+      "label": "Ext",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Fatal",
+      "kind": "external",
+      "label": "Fatal",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Fatalf",
+      "kind": "external",
+      "label": "Fatalf",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Fd",
+      "kind": "external",
+      "label": "Fd",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Flags",
+      "kind": "external",
+      "label": "Flags",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Fprintln",
+      "kind": "external",
+      "label": "Fprintln",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Getwd",
+      "kind": "external",
+      "label": "Getwd",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::HasPrefix",
+      "kind": "external",
+      "label": "HasPrefix",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::IsDir",
+      "kind": "external",
+      "label": "IsDir",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::IsNotExist",
+      "kind": "external",
+      "label": "IsNotExist",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Join",
+      "kind": "external",
+      "label": "Join",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Key",
+      "kind": "external",
+      "label": "Key",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::MarkFlagRequired",
+      "kind": "external",
+      "label": "MarkFlagRequired",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::MkdirAll",
+      "kind": "external",
+      "label": "MkdirAll",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Name",
+      "kind": "external",
+      "label": "Name",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::New",
+      "kind": "external",
+      "label": "New",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::NewCipher",
+      "kind": "external",
+      "label": "NewCipher",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::NewGCM",
+      "kind": "external",
+      "label": "NewGCM",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Open",
+      "kind": "external",
+      "label": "Open",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::PersistentFlags",
+      "kind": "external",
+      "label": "PersistentFlags",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Print",
+      "kind": "external",
+      "label": "Print",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Printf",
+      "kind": "external",
+      "label": "Printf",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Println",
+      "kind": "external",
+      "label": "Println",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::ReadDir",
+      "kind": "external",
+      "label": "ReadDir",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::ReadFile",
+      "kind": "external",
+      "label": "ReadFile",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::ReadFull",
+      "kind": "external",
+      "label": "ReadFull",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Remove",
+      "kind": "external",
+      "label": "Remove",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Scanln",
+      "kind": "external",
+      "label": "Scanln",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Seal",
+      "kind": "external",
+      "label": "Seal",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Size",
+      "kind": "external",
+      "label": "Size",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Sprintf",
+      "kind": "external",
+      "label": "Sprintf",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Stat",
+      "kind": "external",
+      "label": "Stat",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::StringVarP",
+      "kind": "external",
+      "label": "StringVarP",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Sum256",
+      "kind": "external",
+      "label": "Sum256",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Walk",
+      "kind": "external",
+      "label": "Walk",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::WriteFile",
+      "kind": "external",
+      "label": "WriteFile",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::append",
+      "kind": "external",
+      "label": "append",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::bytes",
+      "kind": "external",
+      "label": "bytes",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::copy",
+      "kind": "external",
+      "label": "copy",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::crypto",
+      "kind": "external",
+      "label": "crypto",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::encoding",
+      "kind": "external",
+      "label": "encoding",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::errors",
+      "kind": "external",
+      "label": "errors",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::float64",
+      "kind": "external",
+      "label": "float64",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::fmt",
+      "kind": "external",
+      "label": "fmt",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::github.com",
+      "kind": "external",
+      "label": "github.com",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::golang.org",
+      "kind": "external",
+      "label": "golang.org",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::int64",
+      "kind": "external",
+      "label": "int64",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::io",
+      "kind": "external",
+      "label": "io",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::len",
+      "kind": "external",
+      "label": "len",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::make",
+      "kind": "external",
+      "label": "make",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::os",
+      "kind": "external",
+      "label": "os",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::path",
+      "kind": "external",
+      "label": "path",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::string",
+      "kind": "external",
+      "label": "string",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::strings",
+      "kind": "external",
+      "label": "strings",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::testing",
+      "kind": "external",
+      "label": "testing",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli",
+      "kind": "package",
+      "label": "zerok-cli",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::/CHANGELOG.md",
+      "kind": "file",
+      "label": "CHANGELOG.md",
+      "loc": {
+        "file": "CHANGELOG.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::/CONTRIBUTING.md",
+      "kind": "file",
+      "label": "CONTRIBUTING.md",
+      "loc": {
+        "file": "CONTRIBUTING.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::/README.md",
+      "kind": "file",
+      "label": "README.md",
+      "loc": {
+        "file": "README.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::/SECURITY.md",
+      "kind": "file",
+      "label": "SECURITY.md",
+      "loc": {
+        "file": "SECURITY.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::/TERMS.md",
+      "kind": "file",
+      "label": "TERMS.md",
+      "loc": {
+        "file": "TERMS.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::/TEST-PLAN.md",
+      "kind": "file",
+      "label": "TEST-PLAN.md",
+      "loc": {
+        "file": "TEST-PLAN.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::/cmd/import.go",
+      "kind": "file",
+      "label": "cmd/import.go",
+      "loc": {
+        "file": "cmd/import.go",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::/cmd/init.go",
+      "kind": "file",
+      "label": "cmd/init.go",
+      "loc": {
+        "file": "cmd/init.go",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::/cmd/root.go",
+      "kind": "file",
+      "label": "cmd/root.go",
+      "loc": {
+        "file": "cmd/root.go",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::/cmd/verify.go",
+      "kind": "file",
+      "label": "cmd/verify.go",
+      "loc": {
+        "file": "cmd/verify.go",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::/cmd/zerok-cli/main.go",
+      "kind": "file",
+      "label": "cmd/zerok-cli/main.go",
+      "loc": {
+        "file": "cmd/zerok-cli/main.go",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::/pkg/crypto/crypto.go",
+      "kind": "file",
+      "label": "pkg/crypto/crypto.go",
+      "loc": {
+        "file": "pkg/crypto/crypto.go",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::/pkg/crypto/crypto_test.go",
+      "kind": "file",
+      "label": "pkg/crypto/crypto_test.go",
+      "loc": {
+        "file": "pkg/crypto/crypto_test.go",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::/pkg/storage/storage.go",
+      "kind": "file",
+      "label": "pkg/storage/storage.go",
+      "loc": {
+        "file": "pkg/storage/storage.go",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::CHANGELOG",
+      "kind": "module",
+      "label": "zerok-cli::CHANGELOG",
+      "loc": {
+        "file": "CHANGELOG.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::CHANGELOG::CHANGELOG",
+      "kind": "doc",
+      "label": "CHANGELOG",
+      "loc": {
+        "file": "CHANGELOG.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::CONTRIBUTING",
+      "kind": "module",
+      "label": "zerok-cli::CONTRIBUTING",
+      "loc": {
+        "file": "CONTRIBUTING.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::CONTRIBUTING::CONTRIBUTING",
+      "kind": "doc",
+      "label": "CONTRIBUTING",
+      "loc": {
+        "file": "CONTRIBUTING.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::README",
+      "kind": "module",
+      "label": "zerok-cli::README",
+      "loc": {
+        "file": "README.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::README::README",
+      "kind": "doc",
+      "label": "README",
+      "loc": {
+        "file": "README.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::SECURITY",
+      "kind": "module",
+      "label": "zerok-cli::SECURITY",
+      "loc": {
+        "file": "SECURITY.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::SECURITY::SECURITY",
+      "kind": "doc",
+      "label": "SECURITY",
+      "loc": {
+        "file": "SECURITY.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::TERMS",
+      "kind": "module",
+      "label": "zerok-cli::TERMS",
+      "loc": {
+        "file": "TERMS.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::TERMS::TERMS",
+      "kind": "doc",
+      "label": "TERMS",
+      "loc": {
+        "file": "TERMS.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::TEST-PLAN",
+      "kind": "module",
+      "label": "zerok-cli::TEST-PLAN",
+      "loc": {
+        "file": "TEST-PLAN.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::TEST-PLAN::TEST-PLAN",
+      "kind": "doc",
+      "label": "TEST-PLAN",
+      "loc": {
+        "file": "TEST-PLAN.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::cmd",
+      "kind": "module",
+      "label": "zerok-cli::cmd",
+      "loc": {
+        "file": "cmd/import.go",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::cmd::Execute",
+      "kind": "function",
+      "label": "Execute",
+      "loc": {
+        "file": "cmd/root.go",
+        "line": 36
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "error",
+        "rootCmd"
+      ],
+      "end_line": 38,
+      "signature": "func Execute() error",
+      "decisions": 0
+    },
+    {
+      "id": "zerok-cli::cmd::dedupeMove",
+      "kind": "variable",
+      "label": "dedupeMove",
+      "loc": {
+        "file": "cmd/verify.go",
+        "line": 144
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 144,
+      "signature": "dedupeMove string"
+    },
+    {
+      "id": "zerok-cli::cmd::deduplicate",
+      "kind": "variable",
+      "label": "deduplicate",
+      "loc": {
+        "file": "cmd/import.go",
+        "line": 21
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 21,
+      "signature": "deduplicate bool"
+    },
+    {
+      "id": "zerok-cli::cmd::ensureVaultDir",
+      "kind": "function",
+      "label": "ensureVaultDir",
+      "loc": {
+        "file": "cmd/root.go",
+        "line": 63
+      },
+      "tier": "optional",
+      "defines": [
+        "err",
+        "path"
+      ],
+      "refs": [
+        "error",
+        "getVaultPath",
+        "os"
+      ],
+      "end_line": 69,
+      "signature": "func ensureVaultDir() error",
+      "decisions": 1
+    },
+    {
+      "id": "zerok-cli::cmd::files",
+      "kind": "variable",
+      "label": "files",
+      "loc": {
+        "file": "cmd/verify.go",
+        "line": 94
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 94,
+      "signature": "files []string"
+    },
+    {
+      "id": "zerok-cli::cmd::filesToImport",
+      "kind": "variable",
+      "label": "filesToImport",
+      "loc": {
+        "file": "cmd/import.go",
+        "line": 61
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 61,
+      "signature": "filesToImport []string"
+    },
+    {
+      "id": "zerok-cli::cmd::getPassword",
+      "kind": "function",
+      "label": "getPassword",
+      "loc": {
+        "file": "cmd/root.go",
+        "line": 53
+      },
+      "tier": "optional",
+      "defines": [
+        "pwd"
+      ],
+      "refs": [
+        "fmt",
+        "password",
+        "string"
+      ],
+      "end_line": 61,
+      "signature": "func getPassword() string",
+      "decisions": 1
+    },
+    {
+      "id": "zerok-cli::cmd::getVaultPath",
+      "kind": "function",
+      "label": "getVaultPath",
+      "loc": {
+        "file": "cmd/root.go",
+        "line": 45
+      },
+      "tier": "optional",
+      "defines": [
+        "cwd"
+      ],
+      "refs": [
+        "os",
+        "string",
+        "vaultPath"
+      ],
+      "end_line": 51,
+      "signature": "func getVaultPath() string",
+      "decisions": 1
+    },
+    {
+      "id": "zerok-cli::cmd::hashCmd",
+      "kind": "variable",
+      "label": "hashCmd",
+      "loc": {
+        "file": "cmd/verify.go",
+        "line": 84
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 142,
+      "signature": "hashCmd"
+    },
+    {
+      "id": "zerok-cli::cmd::importCmd",
+      "kind": "variable",
+      "label": "importCmd",
+      "loc": {
+        "file": "cmd/import.go",
+        "line": 24
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 119,
+      "signature": "importCmd"
+    },
+    {
+      "id": "zerok-cli::cmd::init",
+      "kind": "function",
+      "label": "init",
+      "loc": {
+        "file": "cmd/import.go",
+        "line": 121
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "deduplicate",
+        "importCmd",
+        "rootCmd",
+        "sourcePath"
+      ],
+      "end_line": 126,
+      "signature": "func init()",
+      "decisions": 0
+    },
+    {
+      "id": "zerok-cli::cmd::initCmd",
+      "kind": "variable",
+      "label": "initCmd",
+      "loc": {
+        "file": "cmd/init.go",
+        "line": 15
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 78,
+      "signature": "initCmd"
+    },
+    {
+      "id": "zerok-cli::cmd::password",
+      "kind": "variable",
+      "label": "password",
+      "loc": {
+        "file": "cmd/root.go",
+        "line": 15
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 15,
+      "signature": "password string"
+    },
+    {
+      "id": "zerok-cli::cmd::quiet",
+      "kind": "variable",
+      "label": "quiet",
+      "loc": {
+        "file": "cmd/verify.go",
+        "line": 77
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 77,
+      "signature": "quiet bool"
+    },
+    {
+      "id": "zerok-cli::cmd::rootCmd",
+      "kind": "variable",
+      "label": "rootCmd",
+      "loc": {
+        "file": "cmd/root.go",
+        "line": 18
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 34,
+      "signature": "rootCmd"
+    },
+    {
+      "id": "zerok-cli::cmd::sourcePath",
+      "kind": "variable",
+      "label": "sourcePath",
+      "loc": {
+        "file": "cmd/import.go",
+        "line": 20
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 20,
+      "signature": "sourcePath string"
+    },
+    {
+      "id": "zerok-cli::cmd::vaultPath",
+      "kind": "variable",
+      "label": "vaultPath",
+      "loc": {
+        "file": "cmd/root.go",
+        "line": 14
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 14,
+      "signature": "vaultPath string"
+    },
+    {
+      "id": "zerok-cli::cmd::verifyCmd",
+      "kind": "variable",
+      "label": "verifyCmd",
+      "loc": {
+        "file": "cmd/verify.go",
+        "line": 14
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 75,
+      "signature": "verifyCmd"
+    },
+    {
+      "id": "zerok-cli::cmd::zerok-cli",
+      "kind": "module",
+      "label": "zerok-cli::cmd::zerok-cli",
+      "loc": {
+        "file": "cmd/zerok-cli/main.go",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::cmd::zerok-cli::main",
+      "kind": "function",
+      "label": "main",
+      "loc": {
+        "file": "cmd/zerok-cli/main.go",
+        "line": 13
+      },
+      "tier": "optional",
+      "defines": [
+        "err"
+      ],
+      "refs": [
+        "cmd",
+        "fmt",
+        "os"
+      ],
+      "end_line": 18,
+      "signature": "func main()",
+      "decisions": 1
+    },
+    {
+      "id": "zerok-cli::pkg::crypto",
+      "kind": "module",
+      "label": "zerok-cli::pkg::crypto",
+      "loc": {
+        "file": "pkg/crypto/crypto.go",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::pkg::crypto::CreateVerifier",
+      "kind": "function",
+      "label": "CreateVerifier",
+      "loc": {
+        "file": "pkg/crypto/crypto.go",
+        "line": 126
+      },
+      "tier": "optional",
+      "defines": [
+        "ciphertext",
+        "err",
+        "key",
+        "nonce",
+        "plaintext",
+        "result"
+      ],
+      "refs": [
+        "Encrypt",
+        "NonceBytes",
+        "byte",
+        "copy",
+        "error",
+        "len",
+        "make"
+      ],
+      "end_line": 138,
+      "signature": "func CreateVerifier(key []byte) ([]byte, error)",
+      "decisions": 1
+    },
+    {
+      "id": "zerok-cli::pkg::crypto::Decrypt",
+      "kind": "function",
+      "label": "Decrypt",
+      "loc": {
+        "file": "pkg/crypto/crypto.go",
+        "line": 70
+      },
+      "tier": "optional",
+      "defines": [
+        "block",
+        "ciphertext",
+        "err",
+        "gcm",
+        "key",
+        "nonce",
+        "plaintext"
+      ],
+      "refs": [
+        "aes",
+        "byte",
+        "cipher",
+        "error",
+        "errors"
+      ],
+      "end_line": 87,
+      "signature": "func Decrypt(key []byte, nonce []byte, ciphertext []byte) ([]byte, error)",
+      "decisions": 3
+    },
+    {
+      "id": "zerok-cli::pkg::crypto::DecryptFile",
+      "kind": "function",
+      "label": "DecryptFile",
+      "loc": {
+        "file": "pkg/crypto/crypto.go",
+        "line": 99
+      },
+      "tier": "optional",
+      "defines": [
+        "data",
+        "key",
+        "nonce"
+      ],
+      "refs": [
+        "Decrypt",
+        "byte",
+        "error"
+      ],
+      "end_line": 101,
+      "signature": "func DecryptFile(key []byte, nonce []byte, data []byte) ([]byte, error)",
+      "decisions": 0
+    },
+    {
+      "id": "zerok-cli::pkg::crypto::DeriveKey",
+      "kind": "function",
+      "label": "DeriveKey",
+      "loc": {
+        "file": "pkg/crypto/crypto.go",
+        "line": 26
+      },
+      "tier": "optional",
+      "defines": [
+        "password",
+        "salt"
+      ],
+      "refs": [
+        "KeyBits",
+        "PBKDF2Iterations",
+        "byte",
+        "pbkdf2",
+        "sha256",
+        "string"
+      ],
+      "end_line": 28,
+      "signature": "func DeriveKey(password string, salt []byte) []byte",
+      "decisions": 0
+    },
+    {
+      "id": "zerok-cli::pkg::crypto::Encrypt",
+      "kind": "function",
+      "label": "Encrypt",
+      "loc": {
+        "file": "pkg/crypto/crypto.go",
+        "line": 49
+      },
+      "tier": "optional",
+      "defines": [
+        "block",
+        "ciphertext",
+        "err",
+        "gcm",
+        "key",
+        "nonce",
+        "plaintext"
+      ],
+      "refs": [
+        "GenerateNonce",
+        "aes",
+        "byte",
+        "cipher",
+        "error"
+      ],
+      "end_line": 67,
+      "signature": "func Encrypt(key []byte, plaintext []byte) (ciphertext []byte, nonce []byte, err error)",
+      "decisions": 3
+    },
+    {
+      "id": "zerok-cli::pkg::crypto::EncryptFile",
+      "kind": "function",
+      "label": "EncryptFile",
+      "loc": {
+        "file": "pkg/crypto/crypto.go",
+        "line": 90
+      },
+      "tier": "optional",
+      "defines": [
+        "ciphertext",
+        "data",
+        "encrypted",
+        "err",
+        "key"
+      ],
+      "refs": [
+        "Encrypt",
+        "byte",
+        "error"
+      ],
+      "end_line": 96,
+      "signature": "func EncryptFile(key []byte, data []byte) (encrypted []byte, err error)",
+      "decisions": 1
+    },
+    {
+      "id": "zerok-cli::pkg::crypto::GenerateNonce",
+      "kind": "function",
+      "label": "GenerateNonce",
+      "loc": {
+        "file": "pkg/crypto/crypto.go",
+        "line": 40
+      },
+      "tier": "optional",
+      "defines": [
+        "err",
+        "nonce"
+      ],
+      "refs": [
+        "NonceBytes",
+        "byte",
+        "error",
+        "io",
+        "make",
+        "rand"
+      ],
+      "end_line": 46,
+      "signature": "func GenerateNonce() ([]byte, error)",
+      "decisions": 1
+    },
+    {
+      "id": "zerok-cli::pkg::crypto::GenerateSalt",
+      "kind": "function",
+      "label": "GenerateSalt",
+      "loc": {
+        "file": "pkg/crypto/crypto.go",
+        "line": 31
+      },
+      "tier": "optional",
+      "defines": [
+        "err",
+        "salt"
+      ],
+      "refs": [
+        "SaltBytes",
+        "byte",
+        "error",
+        "io",
+        "make",
+        "rand"
+      ],
+      "end_line": 37,
+      "signature": "func GenerateSalt() ([]byte, error)",
+      "decisions": 1
+    },
+    {
+      "id": "zerok-cli::pkg::crypto::Hash",
+      "kind": "function",
+      "label": "Hash",
+      "loc": {
+        "file": "pkg/crypto/crypto.go",
+        "line": 104
+      },
+      "tier": "optional",
+      "defines": [
+        "data",
+        "h"
+      ],
+      "refs": [
+        "byte",
+        "sha256"
+      ],
+      "end_line": 107,
+      "signature": "func Hash(data []byte) []byte",
+      "decisions": 0
+    },
+    {
+      "id": "zerok-cli::pkg::crypto::HashString",
+      "kind": "function",
+      "label": "HashString",
+      "loc": {
+        "file": "pkg/crypto/crypto.go",
+        "line": 110
+      },
+      "tier": "optional",
+      "defines": [
+        "h",
+        "s"
+      ],
+      "refs": [
+        "base64",
+        "byte",
+        "sha256",
+        "string"
+      ],
+      "end_line": 113,
+      "signature": "func HashString(s string) string",
+      "decisions": 0
+    },
+    {
+      "id": "zerok-cli::pkg::crypto::KeyBits",
+      "kind": "variable",
+      "label": "KeyBits",
+      "loc": {
+        "file": "pkg/crypto/crypto.go",
+        "line": 22
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 22,
+      "signature": "KeyBits"
+    },
+    {
+      "id": "zerok-cli::pkg::crypto::NonceBytes",
+      "kind": "variable",
+      "label": "NonceBytes",
+      "loc": {
+        "file": "pkg/crypto/crypto.go",
+        "line": 21
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 21,
+      "signature": "NonceBytes"
+    },
+    {
+      "id": "zerok-cli::pkg::crypto::PBKDF2Iterations",
+      "kind": "variable",
+      "label": "PBKDF2Iterations",
+      "loc": {
+        "file": "pkg/crypto/crypto.go",
+        "line": 19
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 19,
+      "signature": "PBKDF2Iterations"
+    },
+    {
+      "id": "zerok-cli::pkg::crypto::SaltBytes",
+      "kind": "variable",
+      "label": "SaltBytes",
+      "loc": {
+        "file": "pkg/crypto/crypto.go",
+        "line": 20
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 20,
+      "signature": "SaltBytes"
+    },
+    {
+      "id": "zerok-cli::pkg::crypto::TestDecryptWrongKeyFails",
+      "kind": "function",
+      "label": "TestDecryptWrongKeyFails",
+      "loc": {
+        "file": "pkg/crypto/crypto_test.go",
+        "line": 45
+      },
+      "tier": "optional",
+      "defines": [
+        "ciphertext",
+        "err",
+        "key",
+        "nonce",
+        "other",
+        "salt",
+        "t"
+      ],
+      "refs": [
+        "Decrypt",
+        "DeriveKey",
+        "Encrypt",
+        "GenerateSalt",
+        "T",
+        "byte"
+      ],
+      "end_line": 60,
+      "signature": "func TestDecryptWrongKeyFails(t *testing.T)",
+      "decisions": 3
+    },
+    {
+      "id": "zerok-cli::pkg::crypto::TestEncryptDecryptRoundTrip",
+      "kind": "function",
+      "label": "TestEncryptDecryptRoundTrip",
+      "loc": {
+        "file": "pkg/crypto/crypto_test.go",
+        "line": 11
+      },
+      "tier": "optional",
+      "defines": [
+        "ciphertext",
+        "err",
+        "got",
+        "key",
+        "nonce",
+        "plaintext",
+        "salt",
+        "t"
+      ],
+      "refs": [
+        "Decrypt",
+        "DeriveKey",
+        "Encrypt",
+        "GenerateSalt",
+        "KeyBits",
+        "NonceBytes",
+        "SaltBytes",
+        "T",
+        "byte",
+        "bytes",
+        "len"
+      ],
+      "end_line": 43,
+      "signature": "func TestEncryptDecryptRoundTrip(t *testing.T)",
+      "decisions": 8
+    },
+    {
+      "id": "zerok-cli::pkg::crypto::TestSaltsAndNoncesAreUnique",
+      "kind": "function",
+      "label": "TestSaltsAndNoncesAreUnique",
+      "loc": {
+        "file": "pkg/crypto/crypto_test.go",
+        "line": 80
+      },
+      "tier": "optional",
+      "defines": [
+        "a",
+        "b",
+        "err",
+        "t"
+      ],
+      "refs": [
+        "GenerateSalt",
+        "T",
+        "bytes"
+      ],
+      "end_line": 92,
+      "signature": "func TestSaltsAndNoncesAreUnique(t *testing.T)",
+      "decisions": 3
+    },
+    {
+      "id": "zerok-cli::pkg::crypto::TestVerifierRoundTrip",
+      "kind": "function",
+      "label": "TestVerifierRoundTrip",
+      "loc": {
+        "file": "pkg/crypto/crypto_test.go",
+        "line": 62
+      },
+      "tier": "optional",
+      "defines": [
+        "err",
+        "key",
+        "salt",
+        "t",
+        "verifier"
+      ],
+      "refs": [
+        "CreateVerifier",
+        "DeriveKey",
+        "GenerateSalt",
+        "T",
+        "VerifyPassword"
+      ],
+      "end_line": 78,
+      "signature": "func TestVerifierRoundTrip(t *testing.T)",
+      "decisions": 4
+    },
+    {
+      "id": "zerok-cli::pkg::crypto::VerifyPassword",
+      "kind": "function",
+      "label": "VerifyPassword",
+      "loc": {
+        "file": "pkg/crypto/crypto.go",
+        "line": 116
+      },
+      "tier": "optional",
+      "defines": [
+        "decrypted",
+        "err",
+        "key",
+        "password",
+        "salt",
+        "verifier"
+      ],
+      "refs": [
+        "Decrypt",
+        "DeriveKey",
+        "NonceBytes",
+        "bool",
+        "byte",
+        "string"
+      ],
+      "end_line": 123,
+      "signature": "func VerifyPassword(password string, salt []byte, verifier []byte) bool",
+      "decisions": 1
+    },
+    {
+      "id": "zerok-cli::pkg::storage",
+      "kind": "module",
+      "label": "zerok-cli::pkg::storage",
+      "loc": {
+        "file": "pkg/storage/storage.go",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "zerok-cli::pkg::storage::CopyFile",
+      "kind": "function",
+      "label": "CopyFile",
+      "loc": {
+        "file": "pkg/storage/storage.go",
+        "line": 202
+      },
+      "tier": "optional",
+      "defines": [
+        "dest",
+        "dst",
+        "err",
+        "source",
+        "src"
+      ],
+      "refs": [
+        "error",
+        "io",
+        "os",
+        "string"
+      ],
+      "end_line": 217,
+      "signature": "func CopyFile(src, dst string) error",
+      "decisions": 2
+    },
+    {
+      "id": "zerok-cli::pkg::storage::FileInfo",
+      "kind": "class",
+      "label": "FileInfo",
+      "loc": {
+        "file": "pkg/storage/storage.go",
+        "line": 32
+      },
+      "tier": "recommended",
+      "defines": [],
+      "refs": [],
+      "end_line": 39,
+      "signature": "FileInfo"
+    },
+    {
+      "id": "zerok-cli::pkg::storage::FileStore",
+      "kind": "class",
+      "label": "FileStore",
+      "loc": {
+        "file": "pkg/storage/storage.go",
+        "line": 18
+      },
+      "tier": "recommended",
+      "defines": [],
+      "refs": [],
+      "end_line": 21,
+      "signature": "FileStore"
+    },
+    {
+      "id": "zerok-cli::pkg::storage::FileStore::DecryptAndRead",
+      "kind": "method",
+      "label": "DecryptAndRead",
+      "loc": {
+        "file": "pkg/storage/storage.go",
+        "line": 87
+      },
+      "tier": "optional",
+      "defines": [
+        "ciphertext",
+        "encrypted",
+        "encryptedPath",
+        "err",
+        "fileID",
+        "nonce",
+        "plaintext",
+        "s"
+      ],
+      "refs": [
+        "FileStore",
+        "byte",
+        "crypto",
+        "error",
+        "errors",
+        "filepath",
+        "fmt",
+        "len",
+        "os",
+        "string"
+      ],
+      "end_line": 111,
+      "signature": "func (s *FileStore) DecryptAndRead(fileID string) ([]byte, error)",
+      "decisions": 3
+    },
+    {
+      "id": "zerok-cli::pkg::storage::FileStore::Delete",
+      "kind": "method",
+      "label": "Delete",
+      "loc": {
+        "file": "pkg/storage/storage.go",
+        "line": 114
+      },
+      "tier": "optional",
+      "defines": [
+        "fileID",
+        "path",
+        "s"
+      ],
+      "refs": [
+        "FileStore",
+        "error",
+        "filepath",
+        "os",
+        "string"
+      ],
+      "end_line": 117,
+      "signature": "func (s *FileStore) Delete(fileID string) error",
+      "decisions": 0
+    },
+    {
+      "id": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+      "kind": "method",
+      "label": "EncryptAndSave",
+      "loc": {
+        "file": "pkg/storage/storage.go",
+        "line": 42
+      },
+      "tier": "optional",
+      "defines": [
+        "data",
+        "encrypted",
+        "err",
+        "existingPath",
+        "fileID",
+        "hash",
+        "s",
+        "sourcePath"
+      ],
+      "refs": [
+        "FileInfo",
+        "FileStore",
+        "crypto",
+        "error",
+        "filepath",
+        "fmt",
+        "hex",
+        "int64",
+        "len",
+        "os",
+        "sha256",
+        "string"
+      ],
+      "end_line": 84,
+      "signature": "func (s *FileStore) EncryptAndSave(sourcePath string) (*FileInfo, error)",
+      "decisions": 4
+    },
+    {
+      "id": "zerok-cli::pkg::storage::FileStore::ImportDirectory",
+      "kind": "method",
+      "label": "ImportDirectory",
+      "loc": {
+        "file": "pkg/storage/storage.go",
+        "line": 163
+      },
+      "tier": "optional",
+      "defines": [
+        "dirPath",
+        "err",
+        "fileInfo",
+        "results",
+        "s"
+      ],
+      "refs": [
+        "FileInfo",
+        "FileStore",
+        "append",
+        "error",
+        "filepath",
+        "fmt",
+        "info",
+        "path",
+        "string"
+      ],
+      "end_line": 199,
+      "signature": "func (s *FileStore) ImportDirectory(dirPath string) ([]FileInfo, error)",
+      "decisions": 5
+    },
+    {
+      "id": "zerok-cli::pkg::storage::FileStore::ListFiles",
+      "kind": "method",
+      "label": "ListFiles",
+      "loc": {
+        "file": "pkg/storage/storage.go",
+        "line": 120
+      },
+      "tier": "optional",
+      "defines": [
+        "entries",
+        "err",
+        "files",
+        "s"
+      ],
+      "refs": [
+        "FileStore",
+        "_",
+        "append",
+        "e",
+        "error",
+        "filepath",
+        "len",
+        "os",
+        "string"
+      ],
+      "end_line": 133,
+      "signature": "func (s *FileStore) ListFiles() ([]string, error)",
+      "decisions": 4
+    },
+    {
+      "id": "zerok-cli::pkg::storage::FileStore::VerifyIntegrity",
+      "kind": "method",
+      "label": "VerifyIntegrity",
+      "loc": {
+        "file": "pkg/storage/storage.go",
+        "line": 220
+      },
+      "tier": "optional",
+      "defines": [
+        "err",
+        "fileID",
+        "s"
+      ],
+      "refs": [
+        "FileStore",
+        "bool",
+        "error",
+        "string"
+      ],
+      "end_line": 223,
+      "signature": "func (s *FileStore) VerifyIntegrity(fileID string) (bool, error)",
+      "decisions": 0
+    },
+    {
+      "id": "zerok-cli::pkg::storage::HashFiles",
+      "kind": "function",
+      "label": "HashFiles",
+      "loc": {
+        "file": "pkg/storage/storage.go",
+        "line": 136
+      },
+      "tier": "optional",
+      "defines": [
+        "data",
+        "duplicates",
+        "err",
+        "h",
+        "hashStr",
+        "hashes",
+        "paths"
+      ],
+      "refs": [
+        "_",
+        "append",
+        "error",
+        "hex",
+        "len",
+        "make",
+        "os",
+        "path",
+        "sha256",
+        "string"
+      ],
+      "end_line": 160,
+      "signature": "func HashFiles(paths []string) (map[string][]string, error)",
+      "decisions": 4
+    },
+    {
+      "id": "zerok-cli::pkg::storage::NewFileStore",
+      "kind": "function",
+      "label": "NewFileStore",
+      "loc": {
+        "file": "pkg/storage/storage.go",
+        "line": 23
+      },
+      "tier": "optional",
+      "defines": [
+        "basePath",
+        "err",
+        "key"
+      ],
+      "refs": [
+        "FileStore",
+        "byte",
+        "error",
+        "os",
+        "string"
+      ],
+      "end_line": 29,
+      "signature": "func NewFileStore(basePath string, key []byte) (*FileStore, error)",
+      "decisions": 1
+    }
+  ],
+  "edges": [
+    {
+      "from": "zerok-cli",
+      "to": "zerok-cli::CHANGELOG",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli",
+      "to": "zerok-cli::CONTRIBUTING",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli",
+      "to": "zerok-cli::README",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli",
+      "to": "zerok-cli::SECURITY",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli",
+      "to": "zerok-cli::TERMS",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli",
+      "to": "zerok-cli::TEST-PLAN",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli",
+      "to": "zerok-cli::cmd",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli",
+      "to": "zerok-cli::cmd::zerok-cli",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli",
+      "to": "zerok-cli::pkg::crypto",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli",
+      "to": "zerok-cli::pkg::storage",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/CHANGELOG.md",
+      "to": "zerok-cli::CHANGELOG::CHANGELOG",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/CONTRIBUTING.md",
+      "to": "zerok-cli::CONTRIBUTING::CONTRIBUTING",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/README.md",
+      "to": "zerok-cli::README::README",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/SECURITY.md",
+      "to": "zerok-cli::SECURITY::SECURITY",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/TERMS.md",
+      "to": "zerok-cli::TERMS::TERMS",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/TEST-PLAN.md",
+      "to": "zerok-cli::TEST-PLAN::TEST-PLAN",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/cmd/import.go",
+      "to": "zerok-cli::cmd::deduplicate",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/cmd/import.go",
+      "to": "zerok-cli::cmd::filesToImport",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/cmd/import.go",
+      "to": "zerok-cli::cmd::importCmd",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/cmd/import.go",
+      "to": "zerok-cli::cmd::init",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/cmd/import.go",
+      "to": "zerok-cli::cmd::sourcePath",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/cmd/init.go",
+      "to": "zerok-cli::cmd::initCmd",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/cmd/root.go",
+      "to": "zerok-cli::cmd::Execute",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/cmd/root.go",
+      "to": "zerok-cli::cmd::ensureVaultDir",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/cmd/root.go",
+      "to": "zerok-cli::cmd::getPassword",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/cmd/root.go",
+      "to": "zerok-cli::cmd::getVaultPath",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/cmd/root.go",
+      "to": "zerok-cli::cmd::password",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/cmd/root.go",
+      "to": "zerok-cli::cmd::rootCmd",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/cmd/root.go",
+      "to": "zerok-cli::cmd::vaultPath",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/cmd/verify.go",
+      "to": "zerok-cli::cmd::dedupeMove",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/cmd/verify.go",
+      "to": "zerok-cli::cmd::files",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/cmd/verify.go",
+      "to": "zerok-cli::cmd::hashCmd",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/cmd/verify.go",
+      "to": "zerok-cli::cmd::quiet",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/cmd/verify.go",
+      "to": "zerok-cli::cmd::verifyCmd",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/cmd/zerok-cli/main.go",
+      "to": "zerok-cli::cmd::zerok-cli::main",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/crypto/crypto.go",
+      "to": "zerok-cli::pkg::crypto::CreateVerifier",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/crypto/crypto.go",
+      "to": "zerok-cli::pkg::crypto::Decrypt",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/crypto/crypto.go",
+      "to": "zerok-cli::pkg::crypto::DecryptFile",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/crypto/crypto.go",
+      "to": "zerok-cli::pkg::crypto::DeriveKey",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/crypto/crypto.go",
+      "to": "zerok-cli::pkg::crypto::Encrypt",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/crypto/crypto.go",
+      "to": "zerok-cli::pkg::crypto::EncryptFile",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/crypto/crypto.go",
+      "to": "zerok-cli::pkg::crypto::GenerateNonce",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/crypto/crypto.go",
+      "to": "zerok-cli::pkg::crypto::GenerateSalt",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/crypto/crypto.go",
+      "to": "zerok-cli::pkg::crypto::Hash",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/crypto/crypto.go",
+      "to": "zerok-cli::pkg::crypto::HashString",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/crypto/crypto.go",
+      "to": "zerok-cli::pkg::crypto::KeyBits",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/crypto/crypto.go",
+      "to": "zerok-cli::pkg::crypto::NonceBytes",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/crypto/crypto.go",
+      "to": "zerok-cli::pkg::crypto::PBKDF2Iterations",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/crypto/crypto.go",
+      "to": "zerok-cli::pkg::crypto::SaltBytes",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/crypto/crypto.go",
+      "to": "zerok-cli::pkg::crypto::VerifyPassword",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/crypto/crypto_test.go",
+      "to": "zerok-cli::pkg::crypto::TestDecryptWrongKeyFails",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/crypto/crypto_test.go",
+      "to": "zerok-cli::pkg::crypto::TestEncryptDecryptRoundTrip",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/crypto/crypto_test.go",
+      "to": "zerok-cli::pkg::crypto::TestSaltsAndNoncesAreUnique",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/crypto/crypto_test.go",
+      "to": "zerok-cli::pkg::crypto::TestVerifierRoundTrip",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/storage/storage.go",
+      "to": "zerok-cli::pkg::storage::CopyFile",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/storage/storage.go",
+      "to": "zerok-cli::pkg::storage::FileInfo",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/storage/storage.go",
+      "to": "zerok-cli::pkg::storage::FileStore",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/storage/storage.go",
+      "to": "zerok-cli::pkg::storage::FileStore::DecryptAndRead",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/storage/storage.go",
+      "to": "zerok-cli::pkg::storage::FileStore::Delete",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/storage/storage.go",
+      "to": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/storage/storage.go",
+      "to": "zerok-cli::pkg::storage::FileStore::ImportDirectory",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/storage/storage.go",
+      "to": "zerok-cli::pkg::storage::FileStore::ListFiles",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/storage/storage.go",
+      "to": "zerok-cli::pkg::storage::FileStore::VerifyIntegrity",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/storage/storage.go",
+      "to": "zerok-cli::pkg::storage::HashFiles",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::/pkg/storage/storage.go",
+      "to": "zerok-cli::pkg::storage::NewFileStore",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::CHANGELOG",
+      "to": "zerok-cli::/CHANGELOG.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::CONTRIBUTING",
+      "to": "zerok-cli::/CONTRIBUTING.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::README",
+      "to": "zerok-cli::/README.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::SECURITY",
+      "to": "zerok-cli::/SECURITY.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::TERMS",
+      "to": "zerok-cli::/TERMS.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::TEST-PLAN",
+      "to": "zerok-cli::/TEST-PLAN.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::Base",
+      "kind": "calls",
+      "line": 97,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::EncodeToString",
+      "kind": "calls",
+      "line": 94,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::Errorf",
+      "kind": "calls",
+      "line": 29,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::Fd",
+      "kind": "calls",
+      "line": 50,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::HasPrefix",
+      "kind": "calls",
+      "line": 67,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::IsDir",
+      "kind": "calls",
+      "line": 63,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::MkdirAll",
+      "kind": "calls",
+      "line": 41,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::Name",
+      "kind": "calls",
+      "line": 67,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::Printf",
+      "kind": "calls",
+      "line": 47,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::Println",
+      "kind": "calls",
+      "line": 70,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::ReadDir",
+      "kind": "calls",
+      "line": 96,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::ReadFile",
+      "kind": "calls",
+      "line": 27,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::Remove",
+      "kind": "calls",
+      "line": 71,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::Size",
+      "kind": "calls",
+      "line": 127,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::Sprintf",
+      "kind": "calls",
+      "line": 50,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::Stat",
+      "kind": "calls",
+      "line": 56,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::Sum256",
+      "kind": "calls",
+      "line": 93,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::Walk",
+      "kind": "calls",
+      "line": 65,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::WriteFile",
+      "kind": "calls",
+      "line": 46,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::append",
+      "kind": "calls",
+      "line": 68,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::crypto",
+      "kind": "imports",
+      "line": 7,
+      "attrs": {
+        "bindings": [
+          "sha256"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::encoding",
+      "kind": "imports",
+      "line": 8,
+      "attrs": {
+        "bindings": [
+          "hex"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::float64",
+      "kind": "calls",
+      "line": 112,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::fmt",
+      "kind": "imports",
+      "line": 7,
+      "attrs": {
+        "bindings": [
+          "fmt"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::github.com",
+      "kind": "imports",
+      "line": 10,
+      "attrs": {
+        "bindings": [
+          "cobra",
+          "crypto",
+          "storage"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::int64",
+      "kind": "calls",
+      "line": 119,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::len",
+      "kind": "calls",
+      "line": 47,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::make",
+      "kind": "calls",
+      "line": 77,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::os",
+      "kind": "imports",
+      "line": 8,
+      "attrs": {
+        "bindings": [
+          "os"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::path",
+      "kind": "imports",
+      "line": 11,
+      "attrs": {
+        "bindings": [
+          "filepath"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "external::strings",
+      "kind": "imports",
+      "line": 12,
+      "attrs": {
+        "bindings": [
+          "strings"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "zerok-cli::/cmd/import.go",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "zerok-cli::/cmd/init.go",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "zerok-cli::/cmd/root.go",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "zerok-cli::/cmd/verify.go",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "zerok-cli::cmd::getPassword",
+      "kind": "calls",
+      "line": 19,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "zerok-cli::cmd::getVaultPath",
+      "kind": "calls",
+      "line": 24,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "zerok-cli::pkg::crypto::CreateVerifier",
+      "kind": "calls",
+      "line": 34,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "zerok-cli::pkg::crypto::DeriveKey",
+      "kind": "calls",
+      "line": 31,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "zerok-cli::pkg::crypto::GenerateSalt",
+      "kind": "calls",
+      "line": 26,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+      "kind": "calls",
+      "line": 64,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "zerok-cli::pkg::storage::FileStore::ListFiles",
+      "kind": "calls",
+      "line": 42,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "zerok-cli::pkg::storage::FileStore::VerifyIntegrity",
+      "kind": "calls",
+      "line": 53,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "zerok-cli::pkg::storage::HashFiles",
+      "kind": "calls",
+      "line": 107,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd",
+      "to": "zerok-cli::pkg::storage::NewFileStore",
+      "kind": "calls",
+      "line": 36,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::Execute",
+      "to": "zerok-cli::cmd::Execute",
+      "kind": "calls",
+      "line": 37,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::Execute",
+      "to": "zerok-cli::cmd::rootCmd",
+      "kind": "reads",
+      "line": 36,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::ensureVaultDir",
+      "to": "external::IsNotExist",
+      "kind": "calls",
+      "line": 65,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::ensureVaultDir",
+      "to": "external::MkdirAll",
+      "kind": "calls",
+      "line": 66,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::ensureVaultDir",
+      "to": "external::Stat",
+      "kind": "calls",
+      "line": 65,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::ensureVaultDir",
+      "to": "external::os",
+      "kind": "reads",
+      "line": 63,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::ensureVaultDir",
+      "to": "external::path",
+      "kind": "defines",
+      "line": 63,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::ensureVaultDir",
+      "to": "external::path",
+      "kind": "writes",
+      "line": 63,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::ensureVaultDir",
+      "to": "zerok-cli::cmd::getVaultPath",
+      "kind": "calls",
+      "line": 64,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::ensureVaultDir",
+      "to": "zerok-cli::cmd::getVaultPath",
+      "kind": "reads",
+      "line": 63,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::getPassword",
+      "to": "external::Print",
+      "kind": "calls",
+      "line": 57,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::getPassword",
+      "to": "external::Scanln",
+      "kind": "calls",
+      "line": 59,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::getPassword",
+      "to": "external::fmt",
+      "kind": "reads",
+      "line": 53,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::getPassword",
+      "to": "external::string",
+      "kind": "reads",
+      "line": 53,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::getPassword",
+      "to": "zerok-cli::cmd::password",
+      "kind": "reads",
+      "line": 53,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::getVaultPath",
+      "to": "external::Getwd",
+      "kind": "calls",
+      "line": 47,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::getVaultPath",
+      "to": "external::os",
+      "kind": "reads",
+      "line": 45,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::getVaultPath",
+      "to": "external::string",
+      "kind": "reads",
+      "line": 45,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::getVaultPath",
+      "to": "zerok-cli::cmd::vaultPath",
+      "kind": "reads",
+      "line": 45,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::init",
+      "to": "external::AddCommand",
+      "kind": "calls",
+      "line": 80,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::init",
+      "to": "external::BoolP",
+      "kind": "calls",
+      "line": 82,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::init",
+      "to": "external::BoolVarP",
+      "kind": "calls",
+      "line": 81,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::init",
+      "to": "external::Flags",
+      "kind": "calls",
+      "line": 81,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::init",
+      "to": "external::MarkFlagRequired",
+      "kind": "calls",
+      "line": 125,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::init",
+      "to": "external::PersistentFlags",
+      "kind": "calls",
+      "line": 41,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::init",
+      "to": "external::StringVarP",
+      "kind": "calls",
+      "line": 41,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::init",
+      "to": "zerok-cli::cmd::deduplicate",
+      "kind": "reads",
+      "line": 121,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::init",
+      "to": "zerok-cli::cmd::importCmd",
+      "kind": "reads",
+      "line": 121,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::init",
+      "to": "zerok-cli::cmd::rootCmd",
+      "kind": "reads",
+      "line": 121,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::init",
+      "to": "zerok-cli::cmd::sourcePath",
+      "kind": "reads",
+      "line": 121,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::zerok-cli",
+      "to": "external::fmt",
+      "kind": "imports",
+      "line": 7,
+      "attrs": {
+        "bindings": [
+          "fmt"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::cmd::zerok-cli",
+      "to": "external::github.com",
+      "kind": "imports",
+      "line": 10,
+      "attrs": {
+        "bindings": [
+          "cmd"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::cmd::zerok-cli",
+      "to": "external::os",
+      "kind": "imports",
+      "line": 8,
+      "attrs": {
+        "bindings": [
+          "os"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::cmd::zerok-cli",
+      "to": "zerok-cli::/cmd/zerok-cli/main.go",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::zerok-cli::main",
+      "to": "external::Exit",
+      "kind": "calls",
+      "line": 16,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::zerok-cli::main",
+      "to": "external::Fprintln",
+      "kind": "calls",
+      "line": 15,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::zerok-cli::main",
+      "to": "external::fmt",
+      "kind": "reads",
+      "line": 13,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::zerok-cli::main",
+      "to": "external::os",
+      "kind": "reads",
+      "line": 13,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::zerok-cli::main",
+      "to": "zerok-cli::cmd",
+      "kind": "reads",
+      "line": 13,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::cmd::zerok-cli::main",
+      "to": "zerok-cli::cmd::Execute",
+      "kind": "calls",
+      "line": 14,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto",
+      "to": "external::bytes",
+      "kind": "imports",
+      "line": 7,
+      "attrs": {
+        "bindings": [
+          "bytes"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::pkg::crypto",
+      "to": "external::encoding",
+      "kind": "imports",
+      "line": 11,
+      "attrs": {
+        "bindings": [
+          "base64"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::pkg::crypto",
+      "to": "external::errors",
+      "kind": "imports",
+      "line": 12,
+      "attrs": {
+        "bindings": [
+          "errors"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::pkg::crypto",
+      "to": "external::golang.org",
+      "kind": "imports",
+      "line": 15,
+      "attrs": {
+        "bindings": [
+          "pbkdf2"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::pkg::crypto",
+      "to": "external::io",
+      "kind": "imports",
+      "line": 13,
+      "attrs": {
+        "bindings": [
+          "io"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::pkg::crypto",
+      "to": "external::testing",
+      "kind": "imports",
+      "line": 8,
+      "attrs": {
+        "bindings": [
+          "testing"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::pkg::crypto",
+      "to": "zerok-cli::/pkg/crypto/crypto.go",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto",
+      "to": "zerok-cli::/pkg/crypto/crypto_test.go",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto",
+      "to": "zerok-cli::pkg::crypto",
+      "kind": "imports",
+      "line": 7,
+      "attrs": {
+        "bindings": [
+          "aes",
+          "cipher",
+          "rand",
+          "sha256"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::CreateVerifier",
+      "to": "external::copy",
+      "kind": "calls",
+      "line": 135,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::CreateVerifier",
+      "to": "external::copy",
+      "kind": "reads",
+      "line": 126,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::CreateVerifier",
+      "to": "external::len",
+      "kind": "calls",
+      "line": 134,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::CreateVerifier",
+      "to": "external::len",
+      "kind": "reads",
+      "line": 126,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::CreateVerifier",
+      "to": "external::make",
+      "kind": "calls",
+      "line": 134,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::CreateVerifier",
+      "to": "external::make",
+      "kind": "reads",
+      "line": 126,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::CreateVerifier",
+      "to": "zerok-cli::pkg::crypto::Encrypt",
+      "kind": "calls",
+      "line": 128,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::CreateVerifier",
+      "to": "zerok-cli::pkg::crypto::Encrypt",
+      "kind": "reads",
+      "line": 126,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::CreateVerifier",
+      "to": "zerok-cli::pkg::crypto::NonceBytes",
+      "kind": "reads",
+      "line": 126,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::Decrypt",
+      "to": "external::New",
+      "kind": "calls",
+      "line": 83,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::Decrypt",
+      "to": "external::NewCipher",
+      "kind": "calls",
+      "line": 71,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::Decrypt",
+      "to": "external::NewGCM",
+      "kind": "calls",
+      "line": 76,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::Decrypt",
+      "to": "external::Open",
+      "kind": "calls",
+      "line": 81,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::Decrypt",
+      "to": "external::errors",
+      "kind": "reads",
+      "line": 70,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::DecryptFile",
+      "to": "zerok-cli::pkg::crypto::Decrypt",
+      "kind": "calls",
+      "line": 100,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::DecryptFile",
+      "to": "zerok-cli::pkg::crypto::Decrypt",
+      "kind": "reads",
+      "line": 99,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::DeriveKey",
+      "to": "external::Key",
+      "kind": "calls",
+      "line": 27,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::DeriveKey",
+      "to": "external::string",
+      "kind": "reads",
+      "line": 26,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::DeriveKey",
+      "to": "zerok-cli::cmd::password",
+      "kind": "defines",
+      "line": 26,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::DeriveKey",
+      "to": "zerok-cli::pkg::crypto::KeyBits",
+      "kind": "reads",
+      "line": 26,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::DeriveKey",
+      "to": "zerok-cli::pkg::crypto::PBKDF2Iterations",
+      "kind": "reads",
+      "line": 26,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::Encrypt",
+      "to": "external::NewCipher",
+      "kind": "calls",
+      "line": 50,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::Encrypt",
+      "to": "external::NewGCM",
+      "kind": "calls",
+      "line": 55,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::Encrypt",
+      "to": "external::Seal",
+      "kind": "calls",
+      "line": 65,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::Encrypt",
+      "to": "zerok-cli::pkg::crypto::GenerateNonce",
+      "kind": "calls",
+      "line": 60,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::Encrypt",
+      "to": "zerok-cli::pkg::crypto::GenerateNonce",
+      "kind": "reads",
+      "line": 49,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::EncryptFile",
+      "to": "zerok-cli::pkg::crypto::Encrypt",
+      "kind": "calls",
+      "line": 91,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::EncryptFile",
+      "to": "zerok-cli::pkg::crypto::Encrypt",
+      "kind": "reads",
+      "line": 90,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::GenerateNonce",
+      "to": "external::ReadFull",
+      "kind": "calls",
+      "line": 42,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::GenerateNonce",
+      "to": "external::io",
+      "kind": "reads",
+      "line": 40,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::GenerateNonce",
+      "to": "external::make",
+      "kind": "calls",
+      "line": 41,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::GenerateNonce",
+      "to": "external::make",
+      "kind": "reads",
+      "line": 40,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::GenerateNonce",
+      "to": "zerok-cli::pkg::crypto::NonceBytes",
+      "kind": "reads",
+      "line": 40,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::GenerateSalt",
+      "to": "external::ReadFull",
+      "kind": "calls",
+      "line": 33,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::GenerateSalt",
+      "to": "external::io",
+      "kind": "reads",
+      "line": 31,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::GenerateSalt",
+      "to": "external::make",
+      "kind": "calls",
+      "line": 32,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::GenerateSalt",
+      "to": "external::make",
+      "kind": "reads",
+      "line": 31,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::GenerateSalt",
+      "to": "zerok-cli::pkg::crypto::SaltBytes",
+      "kind": "reads",
+      "line": 31,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::Hash",
+      "to": "external::Sum256",
+      "kind": "calls",
+      "line": 105,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::HashString",
+      "to": "external::EncodeToString",
+      "kind": "calls",
+      "line": 112,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::HashString",
+      "to": "external::Sum256",
+      "kind": "calls",
+      "line": 111,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::HashString",
+      "to": "external::string",
+      "kind": "reads",
+      "line": 110,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestDecryptWrongKeyFails",
+      "to": "external::Fatal",
+      "kind": "calls",
+      "line": 58,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestDecryptWrongKeyFails",
+      "to": "external::Fatalf",
+      "kind": "calls",
+      "line": 48,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestDecryptWrongKeyFails",
+      "to": "zerok-cli::pkg::crypto::Decrypt",
+      "kind": "calls",
+      "line": 57,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestDecryptWrongKeyFails",
+      "to": "zerok-cli::pkg::crypto::Decrypt",
+      "kind": "reads",
+      "line": 45,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestDecryptWrongKeyFails",
+      "to": "zerok-cli::pkg::crypto::DeriveKey",
+      "kind": "calls",
+      "line": 50,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestDecryptWrongKeyFails",
+      "to": "zerok-cli::pkg::crypto::DeriveKey",
+      "kind": "reads",
+      "line": 45,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestDecryptWrongKeyFails",
+      "to": "zerok-cli::pkg::crypto::Encrypt",
+      "kind": "calls",
+      "line": 53,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestDecryptWrongKeyFails",
+      "to": "zerok-cli::pkg::crypto::Encrypt",
+      "kind": "reads",
+      "line": 45,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestDecryptWrongKeyFails",
+      "to": "zerok-cli::pkg::crypto::GenerateSalt",
+      "kind": "calls",
+      "line": 46,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestDecryptWrongKeyFails",
+      "to": "zerok-cli::pkg::crypto::GenerateSalt",
+      "kind": "reads",
+      "line": 45,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestEncryptDecryptRoundTrip",
+      "to": "external::Equal",
+      "kind": "calls",
+      "line": 32,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestEncryptDecryptRoundTrip",
+      "to": "external::Fatal",
+      "kind": "calls",
+      "line": 33,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestEncryptDecryptRoundTrip",
+      "to": "external::Fatalf",
+      "kind": "calls",
+      "line": 14,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestEncryptDecryptRoundTrip",
+      "to": "external::bytes",
+      "kind": "reads",
+      "line": 11,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestEncryptDecryptRoundTrip",
+      "to": "external::len",
+      "kind": "calls",
+      "line": 16,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestEncryptDecryptRoundTrip",
+      "to": "external::len",
+      "kind": "reads",
+      "line": 11,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestEncryptDecryptRoundTrip",
+      "to": "zerok-cli::pkg::crypto::Decrypt",
+      "kind": "calls",
+      "line": 36,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestEncryptDecryptRoundTrip",
+      "to": "zerok-cli::pkg::crypto::Decrypt",
+      "kind": "reads",
+      "line": 11,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestEncryptDecryptRoundTrip",
+      "to": "zerok-cli::pkg::crypto::DeriveKey",
+      "kind": "calls",
+      "line": 19,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestEncryptDecryptRoundTrip",
+      "to": "zerok-cli::pkg::crypto::DeriveKey",
+      "kind": "reads",
+      "line": 11,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestEncryptDecryptRoundTrip",
+      "to": "zerok-cli::pkg::crypto::Encrypt",
+      "kind": "calls",
+      "line": 25,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestEncryptDecryptRoundTrip",
+      "to": "zerok-cli::pkg::crypto::Encrypt",
+      "kind": "reads",
+      "line": 11,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestEncryptDecryptRoundTrip",
+      "to": "zerok-cli::pkg::crypto::GenerateSalt",
+      "kind": "calls",
+      "line": 12,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestEncryptDecryptRoundTrip",
+      "to": "zerok-cli::pkg::crypto::GenerateSalt",
+      "kind": "reads",
+      "line": 11,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestEncryptDecryptRoundTrip",
+      "to": "zerok-cli::pkg::crypto::KeyBits",
+      "kind": "reads",
+      "line": 11,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestEncryptDecryptRoundTrip",
+      "to": "zerok-cli::pkg::crypto::NonceBytes",
+      "kind": "reads",
+      "line": 11,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestEncryptDecryptRoundTrip",
+      "to": "zerok-cli::pkg::crypto::SaltBytes",
+      "kind": "reads",
+      "line": 11,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestSaltsAndNoncesAreUnique",
+      "to": "external::Equal",
+      "kind": "calls",
+      "line": 89,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestSaltsAndNoncesAreUnique",
+      "to": "external::Fatal",
+      "kind": "calls",
+      "line": 90,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestSaltsAndNoncesAreUnique",
+      "to": "external::Fatalf",
+      "kind": "calls",
+      "line": 83,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestSaltsAndNoncesAreUnique",
+      "to": "external::bytes",
+      "kind": "reads",
+      "line": 80,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestSaltsAndNoncesAreUnique",
+      "to": "zerok-cli::pkg::crypto::GenerateSalt",
+      "kind": "calls",
+      "line": 81,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestSaltsAndNoncesAreUnique",
+      "to": "zerok-cli::pkg::crypto::GenerateSalt",
+      "kind": "reads",
+      "line": 80,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestVerifierRoundTrip",
+      "to": "external::Fatal",
+      "kind": "calls",
+      "line": 73,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestVerifierRoundTrip",
+      "to": "external::Fatalf",
+      "kind": "calls",
+      "line": 65,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestVerifierRoundTrip",
+      "to": "zerok-cli::pkg::crypto::CreateVerifier",
+      "kind": "calls",
+      "line": 68,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestVerifierRoundTrip",
+      "to": "zerok-cli::pkg::crypto::CreateVerifier",
+      "kind": "reads",
+      "line": 62,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestVerifierRoundTrip",
+      "to": "zerok-cli::pkg::crypto::DeriveKey",
+      "kind": "calls",
+      "line": 67,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestVerifierRoundTrip",
+      "to": "zerok-cli::pkg::crypto::DeriveKey",
+      "kind": "reads",
+      "line": 62,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestVerifierRoundTrip",
+      "to": "zerok-cli::pkg::crypto::GenerateSalt",
+      "kind": "calls",
+      "line": 63,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestVerifierRoundTrip",
+      "to": "zerok-cli::pkg::crypto::GenerateSalt",
+      "kind": "reads",
+      "line": 62,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestVerifierRoundTrip",
+      "to": "zerok-cli::pkg::crypto::VerifyPassword",
+      "kind": "calls",
+      "line": 72,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::TestVerifierRoundTrip",
+      "to": "zerok-cli::pkg::crypto::VerifyPassword",
+      "kind": "reads",
+      "line": 62,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::VerifyPassword",
+      "to": "external::string",
+      "kind": "calls",
+      "line": 122,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::VerifyPassword",
+      "to": "external::string",
+      "kind": "reads",
+      "line": 116,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::VerifyPassword",
+      "to": "zerok-cli::cmd::password",
+      "kind": "defines",
+      "line": 116,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::VerifyPassword",
+      "to": "zerok-cli::pkg::crypto::Decrypt",
+      "kind": "calls",
+      "line": 118,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::VerifyPassword",
+      "to": "zerok-cli::pkg::crypto::Decrypt",
+      "kind": "reads",
+      "line": 116,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::VerifyPassword",
+      "to": "zerok-cli::pkg::crypto::DeriveKey",
+      "kind": "calls",
+      "line": 117,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::VerifyPassword",
+      "to": "zerok-cli::pkg::crypto::DeriveKey",
+      "kind": "reads",
+      "line": 116,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::crypto::VerifyPassword",
+      "to": "zerok-cli::pkg::crypto::NonceBytes",
+      "kind": "reads",
+      "line": 116,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage",
+      "to": "external::encoding",
+      "kind": "imports",
+      "line": 8,
+      "attrs": {
+        "bindings": [
+          "hex"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::pkg::storage",
+      "to": "external::errors",
+      "kind": "imports",
+      "line": 9,
+      "attrs": {
+        "bindings": [
+          "errors"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::pkg::storage",
+      "to": "external::fmt",
+      "kind": "imports",
+      "line": 10,
+      "attrs": {
+        "bindings": [
+          "fmt"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::pkg::storage",
+      "to": "external::github.com",
+      "kind": "imports",
+      "line": 15,
+      "attrs": {
+        "bindings": [
+          "crypto"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::pkg::storage",
+      "to": "external::io",
+      "kind": "imports",
+      "line": 11,
+      "attrs": {
+        "bindings": [
+          "io"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::pkg::storage",
+      "to": "external::os",
+      "kind": "imports",
+      "line": 12,
+      "attrs": {
+        "bindings": [
+          "os"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::pkg::storage",
+      "to": "external::path",
+      "kind": "imports",
+      "line": 13,
+      "attrs": {
+        "bindings": [
+          "filepath"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::pkg::storage",
+      "to": "zerok-cli::/pkg/storage/storage.go",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage",
+      "to": "zerok-cli::pkg::crypto",
+      "kind": "imports",
+      "line": 7,
+      "attrs": {
+        "bindings": [
+          "sha256"
+        ]
+      }
+    },
+    {
+      "from": "zerok-cli::pkg::storage::CopyFile",
+      "to": "external::Close",
+      "kind": "calls",
+      "line": 207,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::CopyFile",
+      "to": "external::Copy",
+      "kind": "calls",
+      "line": 215,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::CopyFile",
+      "to": "external::Create",
+      "kind": "calls",
+      "line": 209,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::CopyFile",
+      "to": "external::Open",
+      "kind": "calls",
+      "line": 203,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::CopyFile",
+      "to": "external::io",
+      "kind": "reads",
+      "line": 202,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::CopyFile",
+      "to": "external::os",
+      "kind": "reads",
+      "line": 202,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::CopyFile",
+      "to": "external::string",
+      "kind": "reads",
+      "line": 202,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::DecryptAndRead",
+      "to": "external::Errorf",
+      "kind": "calls",
+      "line": 92,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::DecryptAndRead",
+      "to": "external::Join",
+      "kind": "calls",
+      "line": 88,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::DecryptAndRead",
+      "to": "external::New",
+      "kind": "calls",
+      "line": 98,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::DecryptAndRead",
+      "to": "external::ReadFile",
+      "kind": "calls",
+      "line": 90,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::DecryptAndRead",
+      "to": "external::errors",
+      "kind": "reads",
+      "line": 87,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::DecryptAndRead",
+      "to": "external::fmt",
+      "kind": "reads",
+      "line": 87,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::DecryptAndRead",
+      "to": "external::len",
+      "kind": "calls",
+      "line": 97,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::DecryptAndRead",
+      "to": "external::len",
+      "kind": "reads",
+      "line": 87,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::DecryptAndRead",
+      "to": "external::os",
+      "kind": "reads",
+      "line": 87,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::DecryptAndRead",
+      "to": "external::string",
+      "kind": "reads",
+      "line": 87,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::DecryptAndRead",
+      "to": "zerok-cli::pkg::crypto",
+      "kind": "reads",
+      "line": 87,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::DecryptAndRead",
+      "to": "zerok-cli::pkg::crypto::DecryptFile",
+      "kind": "calls",
+      "line": 105,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::DecryptAndRead",
+      "to": "zerok-cli::pkg::storage::FileStore",
+      "kind": "reads",
+      "line": 87,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::Delete",
+      "to": "external::Join",
+      "kind": "calls",
+      "line": 115,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::Delete",
+      "to": "external::Remove",
+      "kind": "calls",
+      "line": 116,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::Delete",
+      "to": "external::os",
+      "kind": "reads",
+      "line": 114,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::Delete",
+      "to": "external::path",
+      "kind": "defines",
+      "line": 114,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::Delete",
+      "to": "external::path",
+      "kind": "writes",
+      "line": 114,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::Delete",
+      "to": "external::string",
+      "kind": "reads",
+      "line": 114,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::Delete",
+      "to": "zerok-cli::pkg::storage::FileStore",
+      "kind": "reads",
+      "line": 114,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+      "to": "external::Base",
+      "kind": "calls",
+      "line": 59,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+      "to": "external::EncodeToString",
+      "kind": "calls",
+      "line": 51,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+      "to": "external::Errorf",
+      "kind": "calls",
+      "line": 46,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+      "to": "external::Join",
+      "kind": "calls",
+      "line": 54,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+      "to": "external::ReadFile",
+      "kind": "calls",
+      "line": 44,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+      "to": "external::Stat",
+      "kind": "calls",
+      "line": 55,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+      "to": "external::Sum256",
+      "kind": "calls",
+      "line": 50,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+      "to": "external::WriteFile",
+      "kind": "calls",
+      "line": 73,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+      "to": "external::fmt",
+      "kind": "reads",
+      "line": 42,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+      "to": "external::int64",
+      "kind": "calls",
+      "line": 60,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+      "to": "external::int64",
+      "kind": "reads",
+      "line": 42,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+      "to": "external::len",
+      "kind": "calls",
+      "line": 60,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+      "to": "external::len",
+      "kind": "reads",
+      "line": 42,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+      "to": "external::os",
+      "kind": "reads",
+      "line": 42,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+      "to": "external::string",
+      "kind": "reads",
+      "line": 42,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+      "to": "zerok-cli::cmd::sourcePath",
+      "kind": "defines",
+      "line": 42,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+      "to": "zerok-cli::pkg::crypto",
+      "kind": "reads",
+      "line": 42,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+      "to": "zerok-cli::pkg::crypto::EncryptFile",
+      "kind": "calls",
+      "line": 67,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+      "to": "zerok-cli::pkg::storage::FileInfo",
+      "kind": "reads",
+      "line": 42,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+      "to": "zerok-cli::pkg::storage::FileStore",
+      "kind": "reads",
+      "line": 42,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ImportDirectory",
+      "to": "external::Base",
+      "kind": "calls",
+      "line": 177,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ImportDirectory",
+      "to": "external::IsDir",
+      "kind": "calls",
+      "line": 172,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ImportDirectory",
+      "to": "external::Printf",
+      "kind": "calls",
+      "line": 184,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ImportDirectory",
+      "to": "external::Walk",
+      "kind": "calls",
+      "line": 166,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ImportDirectory",
+      "to": "external::append",
+      "kind": "calls",
+      "line": 188,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ImportDirectory",
+      "to": "external::append",
+      "kind": "reads",
+      "line": 163,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ImportDirectory",
+      "to": "external::fmt",
+      "kind": "reads",
+      "line": 163,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ImportDirectory",
+      "to": "external::path",
+      "kind": "reads",
+      "line": 163,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ImportDirectory",
+      "to": "external::string",
+      "kind": "reads",
+      "line": 163,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ImportDirectory",
+      "to": "zerok-cli::pkg::storage::FileInfo",
+      "kind": "reads",
+      "line": 163,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ImportDirectory",
+      "to": "zerok-cli::pkg::storage::FileStore",
+      "kind": "reads",
+      "line": 163,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ImportDirectory",
+      "to": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+      "kind": "calls",
+      "line": 182,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ListFiles",
+      "to": "external::Ext",
+      "kind": "calls",
+      "line": 128,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ListFiles",
+      "to": "external::IsDir",
+      "kind": "calls",
+      "line": 128,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ListFiles",
+      "to": "external::Name",
+      "kind": "calls",
+      "line": 128,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ListFiles",
+      "to": "external::ReadDir",
+      "kind": "calls",
+      "line": 121,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ListFiles",
+      "to": "external::append",
+      "kind": "calls",
+      "line": 129,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ListFiles",
+      "to": "external::append",
+      "kind": "reads",
+      "line": 120,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ListFiles",
+      "to": "external::len",
+      "kind": "calls",
+      "line": 129,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ListFiles",
+      "to": "external::len",
+      "kind": "reads",
+      "line": 120,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ListFiles",
+      "to": "external::os",
+      "kind": "reads",
+      "line": 120,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ListFiles",
+      "to": "external::string",
+      "kind": "reads",
+      "line": 120,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ListFiles",
+      "to": "zerok-cli::cmd::files",
+      "kind": "defines",
+      "line": 120,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ListFiles",
+      "to": "zerok-cli::cmd::files",
+      "kind": "writes",
+      "line": 120,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::ListFiles",
+      "to": "zerok-cli::pkg::storage::FileStore",
+      "kind": "reads",
+      "line": 120,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::VerifyIntegrity",
+      "to": "external::string",
+      "kind": "reads",
+      "line": 220,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::VerifyIntegrity",
+      "to": "zerok-cli::pkg::storage::FileStore",
+      "kind": "reads",
+      "line": 220,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::FileStore::VerifyIntegrity",
+      "to": "zerok-cli::pkg::storage::FileStore::DecryptAndRead",
+      "kind": "calls",
+      "line": 221,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::HashFiles",
+      "to": "external::EncodeToString",
+      "kind": "calls",
+      "line": 146,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::HashFiles",
+      "to": "external::ReadFile",
+      "kind": "calls",
+      "line": 140,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::HashFiles",
+      "to": "external::Sum256",
+      "kind": "calls",
+      "line": 145,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::HashFiles",
+      "to": "external::append",
+      "kind": "calls",
+      "line": 148,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::HashFiles",
+      "to": "external::append",
+      "kind": "reads",
+      "line": 136,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::HashFiles",
+      "to": "external::len",
+      "kind": "calls",
+      "line": 154,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::HashFiles",
+      "to": "external::len",
+      "kind": "reads",
+      "line": 136,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::HashFiles",
+      "to": "external::make",
+      "kind": "calls",
+      "line": 137,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::HashFiles",
+      "to": "external::make",
+      "kind": "reads",
+      "line": 136,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::HashFiles",
+      "to": "external::os",
+      "kind": "reads",
+      "line": 136,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::HashFiles",
+      "to": "external::path",
+      "kind": "reads",
+      "line": 136,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::HashFiles",
+      "to": "external::string",
+      "kind": "reads",
+      "line": 136,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::NewFileStore",
+      "to": "external::MkdirAll",
+      "kind": "calls",
+      "line": 25,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::NewFileStore",
+      "to": "external::os",
+      "kind": "reads",
+      "line": 23,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::NewFileStore",
+      "to": "external::string",
+      "kind": "reads",
+      "line": 23,
+      "attrs": {}
+    },
+    {
+      "from": "zerok-cli::pkg::storage::NewFileStore",
+      "to": "zerok-cli::pkg::storage::FileStore",
+      "kind": "reads",
+      "line": 23,
+      "attrs": {}
+    }
+  ],
+  "audit_head": "ad8ef1366af6179a5583d044af53bb042c2e6d40a938506b5197db9dc96dedfc",
+  "audit_log": [
+    {
+      "seq": 0,
+      "ts": "1795134947",
+      "op": "genesis",
+      "payload": "{}",
+      "prev_hash": "GENESIS",
+      "hash": "04dfd5024c0837c05432381d49ad5f496d32236b66fef66d8f1a3fcf42c6edb7"
+    },
+    {
+      "seq": 1,
+      "ts": "1795134947",
+      "op": "index_started",
+      "payload": "{\"package\":\"zerok-cli\",\"repo\":\"/home/hatch/workspace/codetopo-work/EXTRACTOR-PROGRAM-2026-11-19/reprofile/work/zerok-cli\"}",
+      "prev_hash": "04dfd5024c0837c05432381d49ad5f496d32236b66fef66d8f1a3fcf42c6edb7",
+      "hash": "0820c91824c62bb7be1bc704cbdc22e329a6889aa141c9c2682b9d2ff06be185"
+    },
+    {
+      "seq": 2,
+      "ts": "1795134947",
+      "op": "index_finished",
+      "payload": "{\"diagnostics\":60,\"edges\":358,\"files_failed\":0,\"files_indexed\":14,\"nodes\":146}",
+      "prev_hash": "0820c91824c62bb7be1bc704cbdc22e329a6889aa141c9c2682b9d2ff06be185",
+      "hash": "ad8ef1366af6179a5583d044af53bb042c2e6d40a938506b5197db9dc96dedfc"
+    }
+  ],
+  "diagnostics": [
+    {
+      "MultiDefinition": {
+        "symbol": "zerok-cli::cmd::init",
+        "locations": [
+          {
+            "file": "cmd/import.go",
+            "line": 121
+          },
+          {
+            "file": "cmd/init.go",
+            "line": 80
+          }
+        ]
+      }
+    },
+    {
+      "MultiDefinition": {
+        "symbol": "zerok-cli::cmd::init",
+        "locations": [
+          {
+            "file": "cmd/import.go",
+            "line": 121
+          },
+          {
+            "file": "cmd/root.go",
+            "line": 40
+          }
+        ]
+      }
+    },
+    {
+      "MultiDefinition": {
+        "symbol": "zerok-cli::cmd::init",
+        "locations": [
+          {
+            "file": "cmd/import.go",
+            "line": 121
+          },
+          {
+            "file": "cmd/verify.go",
+            "line": 79
+          }
+        ]
+      }
+    },
+    {
+      "MultiDefinition": {
+        "symbol": "zerok-cli::cmd::init",
+        "locations": [
+          {
+            "file": "cmd/import.go",
+            "line": 121
+          },
+          {
+            "file": "cmd/verify.go",
+            "line": 146
+          }
+        ]
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd",
+        "target": "Base",
+        "line": 97
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd",
+        "target": "EncodeToString",
+        "line": 94
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd",
+        "target": "Errorf",
+        "line": 39
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd",
+        "target": "Fd",
+        "line": 50
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd",
+        "target": "HasPrefix",
+        "line": 67
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd",
+        "target": "IsDir",
+        "line": 63
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd",
+        "target": "MkdirAll",
+        "line": 41
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd",
+        "target": "Name",
+        "line": 67
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd",
+        "target": "Printf",
+        "line": 89
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd",
+        "target": "Println",
+        "line": 74
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd",
+        "target": "ReadDir",
+        "line": 96
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd",
+        "target": "ReadFile",
+        "line": 37
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd",
+        "target": "Remove",
+        "line": 71
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd",
+        "target": "Size",
+        "line": 127
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd",
+        "target": "Sprintf",
+        "line": 50
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd",
+        "target": "Stat",
+        "line": 56
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd",
+        "target": "Sum256",
+        "line": 93
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd",
+        "target": "Walk",
+        "line": 65
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd",
+        "target": "WriteFile",
+        "line": 46
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd",
+        "target": "append",
+        "line": 68
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd",
+        "target": "float64",
+        "line": 112
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd",
+        "target": "int64",
+        "line": 119
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd",
+        "target": "len",
+        "line": 47
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd",
+        "target": "make",
+        "line": 77
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd::ensureVaultDir",
+        "target": "IsNotExist",
+        "line": 65
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd::getPassword",
+        "target": "Print",
+        "line": 57
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd::getPassword",
+        "target": "Scanln",
+        "line": 59
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd::getVaultPath",
+        "target": "Getwd",
+        "line": 47
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd::init",
+        "target": "AddCommand",
+        "line": 122
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd::init",
+        "target": "BoolP",
+        "line": 82
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd::init",
+        "target": "BoolVarP",
+        "line": 124
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd::init",
+        "target": "Flags",
+        "line": 123
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd::init",
+        "target": "MarkFlagRequired",
+        "line": 125
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd::init",
+        "target": "PersistentFlags",
+        "line": 41
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd::init",
+        "target": "StringVarP",
+        "line": 123
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd::zerok-cli::main",
+        "target": "Exit",
+        "line": 16
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::cmd::zerok-cli::main",
+        "target": "Fprintln",
+        "line": 15
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::pkg::crypto::CreateVerifier",
+        "target": "copy",
+        "line": 135
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::pkg::crypto::Decrypt",
+        "target": "New",
+        "line": 83
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::pkg::crypto::Decrypt",
+        "target": "Open",
+        "line": 81
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::pkg::crypto::DeriveKey",
+        "target": "Key",
+        "line": 27
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::pkg::crypto::Encrypt",
+        "target": "NewCipher",
+        "line": 50
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::pkg::crypto::Encrypt",
+        "target": "NewGCM",
+        "line": 55
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::pkg::crypto::Encrypt",
+        "target": "Seal",
+        "line": 65
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::pkg::crypto::GenerateSalt",
+        "target": "ReadFull",
+        "line": 33
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::pkg::crypto::TestEncryptDecryptRoundTrip",
+        "target": "Equal",
+        "line": 32
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::pkg::crypto::TestEncryptDecryptRoundTrip",
+        "target": "Fatal",
+        "line": 33
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::pkg::crypto::TestEncryptDecryptRoundTrip",
+        "target": "Fatalf",
+        "line": 14
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::pkg::crypto::VerifyPassword",
+        "target": "string",
+        "line": 122
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::pkg::storage::CopyFile",
+        "target": "Close",
+        "line": 207
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::pkg::storage::CopyFile",
+        "target": "Copy",
+        "line": 215
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::pkg::storage::CopyFile",
+        "target": "Create",
+        "line": 209
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::pkg::storage::FileStore::EncryptAndSave",
+        "target": "Join",
+        "line": 54
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "zerok-cli::pkg::storage::FileStore::ListFiles",
+        "target": "Ext",
+        "line": 128
+      }
+    },
+    {
+      "Cycle": {
+        "edge_kind": "calls",
+        "cycle": [
+          "zerok-cli::cmd::Execute"
+        ]
+      }
+    },
+    {
+      "Cycle": {
+        "edge_kind": "imports",
+        "cycle": [
+          "zerok-cli::pkg::crypto"
+        ]
+      }
+    }
+  ]
+}

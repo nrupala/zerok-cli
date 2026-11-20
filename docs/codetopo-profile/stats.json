@@ -1,0 +1,1 @@
+{"edges":{"by_kind":{"calls":144,"contains":79,"defines":6,"imports":25,"reads":101,"writes":3},"total":358},"nodes":{"by_kind":{"class":2,"doc":6,"external":66,"file":14,"function":24,"method":6,"module":10,"package":1,"variable":17},"total":146}}
